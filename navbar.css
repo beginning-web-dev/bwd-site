@@ -65,6 +65,7 @@
   font-weight: 700;
   list-style: none;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .nav-items .nav-links {
@@ -111,5 +112,11 @@ body p {
   }
   .nav-dropdown .nav-links {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navigation-bar .container {
+    max-width: 1140px;
   }
 }
