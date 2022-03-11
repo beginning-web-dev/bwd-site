@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Beginning Web Development</title>
-</head>
-<body>
+  </head>
+  <body>
+    <section class="navigation-bar" id="nav-bar">
+      <div class="container">
+        <div class="logo">webdevcoop</div>
+        <div class="menu">
+          <button class="menu-button toggle">
+            MENU
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+          </button>
+        </div>
+        <div class="nav-items">
+          <ul class="nav-links">
+            <li><a>SERVICES</a></li>
+            <li><a>PORTFOLIO</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>TEAM</a></li>
+            <li><a>CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="nav-dropdown">
+      <ul class="nav-links">
+        <li><a>SERVICES</a></li>
+        <li><a>PORTFOLIO</a></li>
+        <li><a>ABOUT</a></li>
+        <li><a>TEAM</a></li>
+        <li><a>CONTACT</a></li>
+      </ul>
+    </div>
     <p>Coming soon.</p>
-</body>
+    <script src="navbar.js"></script>
+  </body>
 </html>
