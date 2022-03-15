@@ -10,14 +10,15 @@
     <section class="contact">
       <h2 class="contact__header">Contact Us</h2>
       <p class="contact__tagline">Lorem ipsum dolor sit amet...</p>
-      <form action="" class="contact__form"></form>
-      <fieldset class="form__fieldset_info">
+      <form class="contact__form"></form>
+      <fieldset class="form__fieldset form__fieldset_info">
         <label for="contact__name" class="form__label">Name</label>
         <input
           id="contact__name"
           type="text"
           class="form__input"
           placeholder="Your Name"
+          required
         />
         <label for="contact__email" class="form__label">E-Mail</label>
         <input
@@ -25,6 +26,7 @@
           type="text"
           class="form__input"
           placeholder="Your E-Mail"
+          required
         />
         <label for="contact__phone" class="form__label">Phone</label>
         <input
@@ -32,13 +34,18 @@
           type="text"
           class="form__input"
           placeholder="Your Phone"
+          required
         />
       </fieldset>
-      <fieldset class="form__fieldset_msg">
+      <fieldset class="form__fieldset form__fieldset_msg">
         <label for="" class="form__label">Message</label>
-        <textarea class="form__textarea" placeholder="Your Message"></textarea>
+        <textarea
+          class="form__textarea"
+          placeholder="Your Message"
+          required
+        ></textarea>
       </fieldset>
-      <button class="form__button_submit">Send Message</button>
+      <button class="form__button form__button_submit">Send Message</button>
     </section>
   </body>
 </html>
