@@ -72,7 +72,7 @@ Awesome thing!
   }
   68% {
     transform: skewY( calc( (-2.2deg) * var(--amount, 2)) );
-    fill: var(--fill, #FFE800;
+    fill: var(--fill, #FFE800);
   }
   74% {
     transform: skewY( calc( (-2.48deg) * var(--amount, 2)) );
