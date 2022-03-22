@@ -40,11 +40,11 @@ Awesome thing!
   }
   18% {
     transform: skewY( calc( (2.2deg) * var(--amount, 2)) );
-    fill: var(--fill, #530FAD);
+    fill: var(--fill, #FFE800);
   }
   24% {
     transform: skewY( calc( (2.48deg) * var(--amount, 2)) );
-    fill: var(--fill, #FFE800);
+    fill: var(--fill, #530FAD);
   }
   25% {
     transform: skewY( calc( (2.5deg) * var(--amount, 2)) );
@@ -52,15 +52,15 @@ Awesome thing!
   }
   26% {
     transform: skewY( calc( (2.48deg) * var(--amount, 2)) );
-    fill: var(--fill, #FFE800);
+    fill: var(--fill, #530FAD);
   }
   32% {
     transform: skewY( calc( (2.2deg) * var(--amount, 2)) );
-    fill: var(--fill, #530FAD);
+    fill: var(--fill, #FFE800);
   }
   37% {
     transform: skewY( calc( (1.8deg) * var(--amount, 2)) );
-    fill: var(--fill, #FFE800);
+    fill: var(--fill, #530FAD);
   }
   50% {
     transform: skewY(0deg);
@@ -72,11 +72,11 @@ Awesome thing!
   }
   68% {
     transform: skewY( calc( (-2.2deg) * var(--amount, 2)) );
-    fill: var(--fill, #530FAD);
+    fill: var(--fill, #FFE800;
   }
   74% {
     transform: skewY( calc( (-2.48deg) * var(--amount, 2)) );
-    fill: var(--fill, #FFE800);
+    fill: var(--fill, #530FAD);
   }
   75% {
     transform: skewY( calc( (-2.5deg) * var(--amount, 2)) );
@@ -88,7 +88,7 @@ Awesome thing!
   }
   82% {
     transform: skewY( calc( (-2.2deg) * var(--amount, 2)) );
-    fill: var(--fill, #530FAD);
+    fill: var(--fill, #FFE800);
   }
   87% {
     transform: skewY( calc( (-1.8deg) * var(--amount, 2)) );
