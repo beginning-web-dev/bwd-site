@@ -1,23 +1,311 @@
+<!--Services 1.0 -->
+<!--David Oleen-->
+
+<!--Normal Stuff-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Beginning Web Development</title>
-</head>
-<body class="mainHead">
-    <!-- Jumbotron -->
-    <header>
-        <div class="container">
-            <video class="mainVideo" id="myVideo" type="video/mp4" src="assets/mp4/WDC_Jumbotron_Video_01.mp4" muted autoplay loop></video>
-            <div class="container masthead overlay">
-                <div class="masthead-subheading">Welcome to the WebDevCoop Studio!</div>
-                <div class="masthead-heading text-uppercase">IT'S NICE TO MEET YOU</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#">LEARN HOW WE CAN HELP</a>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--Title-->
+    <title>Web Dev Co-Op</title>
+
+    <!-- Font Icons-->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/19c065fbbc.js" crossorigin="anonymous"></script>
+    <!--Other Cool Font!-->
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+    <!--CSS-->
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="blobz.css" />
+  </head>
+
+  <body class="mainHead">
+
+  <header>
+      <div class="container">
+          <video class="mainVideo" id="myVideo" type="video/mp4" src="assets/mp4/WDC_Jumbotron_Video_01.mp4" muted autoplay loop></video>
+          <div class="container masthead overlay">
+              <div class="masthead-subheading">Welcome to the WebDevCoop Studio!</div>
+              <div class="masthead-heading text-uppercase">IT'S NICE TO MEET YOU</div>
+              <a class="btn btn-primary btn-xl text-uppercase" href="#">LEARN HOW WE CAN HELP</a>
+          </div>
+      </div>
+  </header>
+
+  <!-- About-->
+  <!-- create class in CSS then delete comment-->
+  <!--another comment for testing-->
+  <section class="page-section" id="about">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase">About</h2>
+              <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+          <ul class="timeline">
+              <li>
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" alt="..."></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>2009-2011</h4>
+                          <h4 class="subheading">Our Humble Beginnings</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" alt="..."></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>March 2011</h4>
+                          <h4 class="subheading">An Agency is Born</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li>
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" alt="..."></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>December 2015</h4>
+                          <h4 class="subheading">Transition to Full Service</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" alt="..."></div>
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <h4>July 2020</h4>
+                          <h4 class="subheading">Phase Two Expansion</h4>
+                      </div>
+                      <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-image">
+                      <h4>
+                          Be Part
+                          <br>
+                          Of Our
+                          <br>
+                          Story!
+                      </h4>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+    <!-- Services-->
+    <section class="page-section" id="services">
+      <div class="container">
+        <!-- Cool Blob thing-->
+        <div class="box">
+          <div class="tk-blob">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7">
+              <path
+                d="M539.8 137.6c98.3 69 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.8 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"
+              ></path>
+            </svg>
+          </div>
         </div>
-    </header>
-    <!-- Core theme JS -->
-    <script src="js/scripts.js"></script>
+
+        <!-- Heading-->
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Services We Offer</h2>
+          <h3 class="section-subheading text-muted">
+            Start Getting things Built!
+          </h3>
+        </div>
+        <!--Icon: Website-->
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-object-group fa-stack-1x text-secondary"></i>
+            </span>
+            <!--Building Information-->
+            <h4 class="my-3">Getting It Built!</h4>
+            <p class="text-muted">
+              Have an Idea for a Website? Want to start up your buisness? A
+              Non-Profit Organization that needs Assistance? Get your site built
+              from our Professional Team!
+            </p>
+          </div>
+
+          <!--Icon: Bug-->
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-bug fa-stack-1x text-secondary"></i>
+            </span>
+            <!--Update Information-->
+            <h4 class="my-3">Need Your site Updated?</h4>
+            <p class="text-muted">
+              Want to get a site Updated and Secure? Do you need services for it
+              to be continously updated? Ask, and see what we can do for you!
+            </p>
+          </div>
+          <!--Credit Card-->
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-credit-card fa-stack-1x text-secondary"></i>
+            </span>
+            <!--Pricing info-->
+            <h4 class="my-3">Pricing?!?</h4>
+            <p class="text-muted">
+              We are a Co-Op! Pay what you have! Flexability for you, and
+              flexability for our team, we will grow with you! Untapped
+              Potential at your disposal!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section" id="contact">
+      <div class="container">
+        <h2 class="contact__header">Contact Us</h2>
+        <p class="contact__tagline">
+          Let us know how we can get you on the web!
+        </p>
+        <form class="contact__form"></form>
+        <fieldset class="form__fieldset form__fieldset_info">
+          <label for="contact__name" class="form__label">Name</label>
+          <input
+            id="contact__name"
+            type="text"
+            class="form__input"
+            placeholder="Your Name"
+            required
+          />
+          <label for="contact__email" class="form__label">E-Mail</label>
+          <input
+            id="contact__email"
+            type="text"
+            class="form__input"
+            placeholder="Your E-Mail"
+            required
+          />
+          <label for="contact__phone" class="form__label">Phone</label>
+          <input
+            id="contact__phone"
+            type="text"
+            class="form__input"
+            placeholder="Your Phone"
+            required
+          />
+        </fieldset>
+        <fieldset class="form__fieldset form__fieldset_msg">
+          <label for="" class="form__label">Message</label>
+          <textarea
+            class="form__textarea"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </fieldset>
+        <button class="form__button form__button_submit">Send Message</button>
+      </div>
+    </section>
+        <!-- team section start by Sal Frisina-->
+        <section id="ourTeamOne">
+            <div id="ourTeamTitleContainer">
+            <h2 id="ourTeamTitle">Our Amazing Team</h2>
+            <span id="teamText">Lorem ipsum dolor sit amet.</span>
+            </div>
+            <section class="teamMemberContainer">
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            </section>
+             <section class="teamMemberContainer">
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="teamMember">
+                <img src="https://www.pngfind.com/pngs/m/154-1540407_png-file-svg-silhouette-of-head-and-shoulders.png" alt="picture of team member">
+                <h3>Firstname Lastname</h3>
+                <span class="memberTitle">title?</span>
+                <ul class="personalLinks">
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="btn-social" href="#"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+            </div>
+            </section>
+        <p id="teamParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, delectus? Dolore eius libero asperiores omnis vero aperiam, repellendus exercitationem iste.</p>
+        </section>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
