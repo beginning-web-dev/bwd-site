@@ -2,9 +2,14 @@
 CSS a Bit of a Mess- Spagetti
 */
 
+/*
+  I just realized we never discussed the CSS "methodology" we were going to use. I thought about changing my CSS to match the way previous contributors set it up, which works nicely, but thought it would be a good converstaion   starter to leave mine the way I did it. I've imported my rules here to avoid making a mess of what's already here.
+*/
+@import url("./styles/contact.css");
+
 :root {
-   --bs-primary-rgb: 83, 15, 173;
-   --bs-secondary-rgb: 255, 232, 0;
+  --bs-primary-rgb: 83, 15, 173;
+  --bs-secondary-rgb: 255, 232, 0;
 }
 
 *,
@@ -13,26 +18,36 @@ CSS a Bit of a Mess- Spagetti
   box-sizing: border-box;
 }
 
+/* Here's a pretty common thing to do when setting up CSS these days. Keeps the white border from appearing on the sides when using a non-white background. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
- h3, .h3, h1, .h1 {
+h3,
+.h3,
+h1,
+.h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   text-decoration: underline;
 }
 
-.h2, h2{
-
+.h2,
+h2 {
+  /* Not sure this is valid. Go with same settings as other heading levels? */
   font-family: papyrus;
-  
-  }
+}
 
-.h4, h4{
-
-Font-family: 'Nova Flat';
-
+.h4,
+h4 {
+  font-family: "Nova Flat";
 }
 
 .container {
@@ -41,34 +56,32 @@ Font-family: 'Nova Flat';
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-
 }
 
 /* media Querries */
 
 @media (min-width: 576px) {
-   .container {
+  .container {
     max-width: 540px;
   }
-
-  }
+}
 @media (min-width: 768px) {
-   .container {
+  .container {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-   .container {
+  .container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-   .container {
+  .container {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
-   .container {
+  .container {
     max-width: 1320px;
   }
 }
@@ -96,10 +109,9 @@ Font-family: 'Nova Flat';
     flex: 1 0 0%;
   }
 
-.gy-sm-5 {
+  .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -107,14 +119,12 @@ Font-family: 'Nova Flat';
     flex: 1 0 0%;
   }
 
-
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
 
-  
-.gy-md-5 {
+  .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -136,17 +146,21 @@ p {
   line-height: 1.75;
 }
 
-.page-section h2.section-heading, .page-section .section-heading.h2 {
+.page-section h2.section-heading,
+.page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
 
@@ -154,21 +168,19 @@ p {
   section {
     padding: 9rem 0;
   }
-
 }
 
-div.tk-blob{
-display: flex;
-justify-content: center;
-align-items: center;
---time: 30s;
---amount: 2;
-height: 50px;
-width: 200px;
-
+div.tk-blob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --time: 30s;
+  --amount: 2;
+  height: 50px;
+  width: 200px;
 }
 
-div.box{
+div.box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,12 +188,14 @@ div.box{
   padding-bottom: 5em;
   --time: 20s;
   --amount: 5;
-
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
 body {
   box-sizing: border-box;
-}    
+}
 #ourTeamTitleContainer {
 text-align: center;
 color: #310769;
@@ -193,13 +207,13 @@ font-family: 'Monserrat', sans-serif;
   color: black;
 }
 .teamMemberContainer {
-  display: flex; 
+  display: flex;
   justify-content: space-evenly;
    margin-top: 5rem;
 }
 .teamMember {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 .personalLinks {
   display: flex;
@@ -226,7 +240,7 @@ i{
 .teamMember img{
   width: 175px;
   height: 200px;
-  border: 5px solid #310769; 
+  border: 5px solid #310769;
   border-radius: 50%;
 }
 .memberTitle{

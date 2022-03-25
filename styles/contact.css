@@ -1,0 +1,68 @@
+/*
+(Robert) I followed a "block-element-modifier" methodology for my CSS. You can read more about it at https://en.bem.info/methodology/quick-start/
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Slab:wght@400;700&display=swap");
+
+#contact {
+  padding: 1rem 0;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.contact__header {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact__tagline {
+  font-style: italic;
+}
+
+.contact__form {
+  display: flex;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  visibility: hidden;
+}
+
+.form__input {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.form__textarea {
+  flex: 1 1 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.form__button {
+  margin: 0.5rem auto;
+  padding: 1rem 2rem;
+  background-color: #ffc800;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
