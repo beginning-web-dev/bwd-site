@@ -1,0 +1,123 @@
+.navigation-bar {
+    height: 70px;
+    background-color: #310769;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-bar .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navigation-bar .logo {
+    margin-left: 5%;
+    color: white;
+}
+
+.navigation-bar .menu {
+    margin-right: 5%;
+    border-color: white;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: solid 1px #99989a7c;
+    border-radius: 5px;
+    padding: 10px;
+    color: #99989a;
+    font-weight: 700;
+    font-size: 0.75rem;
+    outline: none;
+    transition: outline 0.05s linear;
+}
+.menu-button:focus {
+    outline: solid 4px #99989a7c;
+}
+
+.nav-dropdown {
+    height: 230px;
+    background-color: #310769;
+    display: none;
+    padding: 5px;
+    color: #99989a;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-dropdown .nav-links li {
+    padding-top: 20px;
+}
+
+.nav-items {
+    display: none;
+    width: 60%;
+}
+
+.nav-links {
+    color: white;
+    font-weight: 700;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.nav-items .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu-icon {
+    margin-left: 3px;
+}
+
+body p {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+@media (min-width: 576px) {
+    .navigation-bar .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation-bar .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .navigation-bar .container {
+        max-width: 960px;
+    }
+    .navigation-bar .menu {
+        display: none;
+    }
+    .nav-items {
+        display: block;
+    }
+    .nav-dropdown {
+        height: 0;
+        padding: 0;
+        display: none;
+    }
+    .nav-dropdown .nav-links {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navigation-bar .container {
+        max-width: 1140px;
+    }
+}

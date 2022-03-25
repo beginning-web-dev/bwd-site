@@ -18,16 +18,54 @@
 
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/19c065fbbc.js" crossorigin="anonymous"></script>
+      <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+              integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+              crossorigin="anonymous"
+              referrerpolicy="no-referrer"
+      />
     <!--Other Cool Font!-->
     <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
     <!--CSS-->
     <link href="styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="blobz.css" />
+      <link rel="stylesheet" href="styles/navbar.css" />
   </head>
 
   <body class="mainHead">
 
   <header>
+      <section class="navigation-bar" id="nav-bar">
+          <div class="container">
+              <div class="logo">webdevcoop</div>
+              <div class="menu">
+                  <button class="menu-button toggle">
+                      MENU
+                      <i class="fa-solid fa-bars" id="menu-icon"></i>
+                  </button>
+              </div>
+              <div class="nav-items">
+                  <ul class="nav-links">
+                      <li><a>services</a></li>
+                      <li><a>portfolio</a></li>
+                      <li><a>about</a></li>
+                      <li><a>team</a></li>
+                      <li><a>contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <div class="nav-dropdown">
+          <ul class="nav-links">
+              <li><a>services</a></li>
+              <li><a>portfolio</a></li>
+              <li><a>about</a></li>
+              <li><a>team</a></li>
+              <li><a>contact</a></li>
+          </ul>
+      </div>
+
       <div class="container">
           <video class="mainVideo" id="myVideo" type="video/mp4" src="assets/mp4/WDC_Jumbotron_Video_01.mp4" muted autoplay loop></video>
           <div class="container masthead overlay">
@@ -307,5 +345,6 @@
         <p id="teamParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, delectus? Dolore eius libero asperiores omnis vero aperiam, repellendus exercitationem iste.</p>
         </section>
   <script src="js/scripts.js"></script>
+  <script src="js/navbar.js"></script>
 </body>
 </html>
