@@ -193,3 +193,67 @@ div.box {
 .text-uppercase {
   text-transform: uppercase;
 }
+body {
+  box-sizing: border-box;
+}
+#ourTeamTitleContainer {
+text-align: center;
+color: #310769;
+font-size: 1.8rem;
+font-family: 'Monserrat', sans-serif;
+}
+#teamText{
+  font-size: 1.2rem;
+  color: black;
+}
+.teamMemberContainer {
+  display: flex;
+  justify-content: space-evenly;
+   margin-top: 5rem;
+}
+.teamMember {
+  display: flex;
+  flex-direction: column;
+}
+.personalLinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 20px;
+}
+
+#teamParagraph {
+  text-align: center;
+  margin-top: 3rem;
+}
+.fa-brands, .fa-solid{
+  color: #FFE800;
+  border: 2px solid #310769;
+  background: #310769;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 5px;
+}
+i{
+  margin-right: 10px;
+}
+.teamMember img{
+  width: 175px;
+  height: 200px;
+  border: 5px solid #310769;
+  border-radius: 50%;
+}
+.memberTitle{
+  text-align: center;
+}
+.fa-linkedin {
+  width: 40px;
+  padding-left: 7px;
+}
+/* media query */
+@media screen and (max-width: 800px){
+.teamMemberContainer {
+  flex-direction: column;
+  align-items: center;
+}
+}
