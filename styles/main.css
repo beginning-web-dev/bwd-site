@@ -1,0 +1,39 @@
+@import "variables.css";
+
+.navbar-light .navbar-brand {
+    color: var(--light-text);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--light-text);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--secondary);
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--light-text);
+    border-color: var(--light-text);
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+}
+
+header {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(../assets/images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        background-color: transparent;
+    }
+}
