@@ -69,6 +69,11 @@
   text-transform: uppercase;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-items .nav-links {
   display: flex;
   flex-direction: row;
