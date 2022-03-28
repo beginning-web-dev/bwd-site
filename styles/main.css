@@ -1,4 +1,9 @@
 @import "variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar-light .navbar-brand {
     color: var(--light-text);
@@ -32,8 +37,64 @@ header {
     background-size: cover;
 }
 
+header .subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+header .heading {
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+header .btn-primary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #222222;
+    font-weight: 600;
+}
+
+header .btn-primary:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(197, 179, 0, .5);
+}
+
+header .btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(197, 179, 0, .5);
+}
+
+header .btn-primary:hover, header .btn-primary:active {
+    background-color: var(--secondary-dark);
+    border-color: var(--secondary-dark);
+    color: #222222;
+}
+
 @media only screen and (min-width: 992px) {
     nav {
         background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header .subheading {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    header .heading {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
     }
 }
