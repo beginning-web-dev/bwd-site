@@ -1,7 +1,9 @@
 :root {
     --primary: #530fad;
-    --secondary: #ffe800;
-    --secondary-dark: #c5b300;
+    --secondary: #ffc700;
+    --secondary-dark: #c59a00;
     --light-text: #ffffff;
+    --muted-text: #6c757d;
     --nav-bg-color: #212529;
+    --bg-light: #F8F9FA;
 }
