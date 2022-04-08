@@ -257,3 +257,7 @@ i{
   align-items: center;
 }
 }
+
+.svg-inline--fa.fa-stack-2x{
+    width: 1em;
+}

@@ -80,7 +80,8 @@
 }
 
 body p {
-    position: absolute;
+    /*position: absolute;
+    */
     left: 0;
     top: 70px;
 }
