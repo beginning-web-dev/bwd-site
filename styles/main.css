@@ -127,14 +127,18 @@ header .btn-primary:hover, header .btn-primary:active {
 @media only screen and (min-width: 992px) {
     nav {
         background-color: transparent;
+        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    }
+    #mainNav.navbar-shrink .nav {
+        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        transition: font-size 0.5s ease-in-out;
     }
     #mainNav.navbar-shrink {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
         background-color: var(--nav-bg-color);
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1rem;
