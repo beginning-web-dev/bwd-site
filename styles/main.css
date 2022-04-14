@@ -136,6 +136,9 @@ header .btn-primary:hover, header .btn-primary:active {
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
     }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -155,4 +158,5 @@ header .btn-primary:hover, header .btn-primary:active {
         line-height: 4.5rem;
         margin-bottom: 4rem;
     }
+
 }
