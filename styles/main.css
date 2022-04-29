@@ -57,6 +57,10 @@ nav {
     background-color: var(--nav-bg-color);
 }
 
+nav img {
+    height: 1.5rem;
+}
+
 header {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
@@ -129,17 +133,30 @@ header .btn-primary:hover, header .btn-primary:active {
         background-color: transparent;
         transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
     }
+
+    nav img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+
+    nav.navbar-shrink img {
+        height: 1.5rem;
+    }
+
     #mainNav.navbar-shrink .nav {
         transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
     }
+
     #mainNav .navbar-brand {
         transition: font-size 0.5s ease-in-out;
     }
+
     #mainNav.navbar-shrink {
         padding-top: .25rem;
         padding-bottom: .25rem;
         background-color: var(--nav-bg-color);
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1rem;
     }
