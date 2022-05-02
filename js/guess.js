@@ -3,8 +3,8 @@ const guesses = document.querySelector('.guesses');
 const lastResult = document.querySelector('.lastResult');
 const lowOrHi = document.querySelector('.lowOrHi');
 
-const guessSubmit = document.querySelector('.guessSubmit'); // submit button
 const guessField = document.querySelector('.guessField'); // input field
+const guessSubmit = document.querySelector('.guessSubmit'); // submit button
 
 let guessCount = 1;
 let resetButton;
@@ -28,11 +28,7 @@ function checkGuess() {
         lastResult.style.backgroundColor = 'green';
         lowOrHi.textContent = '';
         setGameOver();
-    } else if (guessCount === 10) {
-        lastResult.textContent = '!!!GAME OVER!!!';
-        lowOrHi.textContent = '';
-        setGameOver();
-    } else {
+    } else if (guessCount < 10) {
         lastResult.textContent = 'Wrong!';
         lastResult.style.backgroundColor = 'red';
         if(userGuess < randomNumber) {
@@ -40,6 +36,10 @@ function checkGuess() {
         } else if(userGuess > randomNumber) {
             lowOrHi.textContent = 'Last guess was too high!';
         }
+    } else {
+        lastResult.textContent = '!!!GAME OVER!!!';
+        lowOrHi.textContent = '';
+        setGameOver();
     }
 
     guessCount++;
@@ -57,5 +57,18 @@ function setGameOver() {
 }
 
 function resetGame() {
+    guessCount = 1;
 
+    // Array of paragraph elements [element, element, element]
+    const resetParas = document.querySelectorAll('.resultParas p');
+    for (const resetPara of resetParas) {
+        resetPara.textContent = '';
+    }
+
+    resetButton.parentNode.removeChild(resetButton);
+    guessField.disabled = false;
+    guessSubmit.disabled = false;
+    guessField.focus();
+    lastResult.style.backgroundColor = 'white';
+    randomNumber = Math.floor(Math.random() * 100) + 1;
 }
