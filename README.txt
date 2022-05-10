@@ -31,7 +31,7 @@ diamonds in the rough will take this thing? This is our website!
    https://webdevcoop.com/
 
  * To submit bug reports and feature suggestions:
-   bugs.etc@webdevcoop.com
+   bugs@webdevcoop.com
 
  * If you are currently a Maintainer, make sure to cherry-pick the right commits
    to include in the Change Log.
@@ -53,16 +53,16 @@ in your browser (This should not be an issue for like 99.99% of you):
 INSTALLATION
 ------------
  
- * Use what you need to install this to your web server. Apatche, a Hosting Site etc.
+ * Use what you need to install this to your web server. Apaache, a Hosting Site etc.
 
- * Pull this thing down from GitHub and edit via the IDE of your choice and get it
-   Up and runnning!
+ * Pull this thing down from GitHub and edit it via the IDE of your choice and get it
+   up and runnning!
  
  * Or just... enjoy it as is! In all its glory in your browser. Let its beauty
-   flow into your retnas.
+   flow into your retinas.
 
- * Current Developers/Contributers, make sure to update your branch in our main 
-   repository and check for recent updates so you can make the changes you need 
+ * Current Developers/Contributors, make sure to update your branch, then pull into our
+   main branch and check for recent updates so you can make the changes you need 
    to make.
 
 CONFIGURATION
