@@ -18,13 +18,13 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-Web Dev Co-Op started in 2002, with the premise of creating a Organization
+Web Dev Co-Op started in 2022, with the premise of creating a Organization
 which provides services to various consumers such as non-profits. This will
-allow aspiring web developers the work experince and knowledge that they will
-need to aquire. Designing something truely wonderfull, as we give back our
-knowledge that employees/volunteer learned from Timothy Wojtylak and apply it!
+allow aspiring web developers the work experience and knowledge that they will
+need to acquire. Designing something truly wonderful, as we give back to our
+using the knowledge that employees/volunteer learned from Timothy Wojtylak and apply it!
 What better way to once again give back to the community! Who knows where these 
-diamonds in the rough will take this thing? This is our webiste!
+diamonds in the rough will take this thing? This is our website!
 
 
  * For a full description of our organization and services, visit our homepage:
@@ -74,11 +74,11 @@ CONFIGURATION
    - You found yourself here, maybe you might have liked the design of the site?
 
      The design was made by a group of individuals who decided to band together
-     to greater imporove the knowledge of WebDevelopment others, and well themselves. 
-     It was based largly after templates that we liked on the web. To greate improve
+     to greatly imporove the knowledge of WebDevelopment others, and well themselves. 
+     It was based largely after templates that we liked on the web. To greate improve
      ourselves and others, we are the Aa...Begining Web Development Group.
 
-   - If by some reason you feel Inspired by your sense of civic duty:
+   - If by some reason you feel inspired by your sense of civic duty:
 
      Be sure to check out our page on meetup.com! We would love to see you
      there! https://www.meetup.com/Beginning-Web-Development/
@@ -113,13 +113,13 @@ MAINTAINERS
 -----------
 
 Current Maintainers:
- * Timothy Wojylak
- * Ralph Greg
+ * Timothy Wojtylak
+ * Ralph Gereg
  * Naomy Arnold
  * Michael Futral
  * David Oleen
 
 This project has been sponsored by:
- * Various Companys that I could not find in the Discord Group. Someone Please Look into
+ * Various companies that I could not find in the Discord Group. Someone please look into
    this for me.
 
