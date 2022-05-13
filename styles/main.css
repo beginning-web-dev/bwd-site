@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-text);
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--secondary);
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--secondary);
 }
@@ -55,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background-color: var(--nav-bg-color);
+}
+
+nav img {
+    height: 1.5rem;
 }
 
 header {
@@ -129,17 +137,30 @@ header .btn-primary:hover, header .btn-primary:active {
         background-color: transparent;
         transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
     }
+
+    nav img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+
+    nav.navbar-shrink img {
+        height: 1.5rem;
+    }
+
     #mainNav.navbar-shrink .nav {
         transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
     }
+
     #mainNav .navbar-brand {
         transition: font-size 0.5s ease-in-out;
     }
+
     #mainNav.navbar-shrink {
         padding-top: .25rem;
         padding-bottom: .25rem;
         background-color: var(--nav-bg-color);
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1rem;
     }
